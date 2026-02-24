@@ -215,7 +215,7 @@ def predict_image(model, image_index, dataset):
     plt.show()
     print(f'Actual: {class_names[label]}, Predicted: {class_names[predicted.item()]}')
 # Example Prediction
-predict_image(model, image_index=47, dataset=test_dataset)
+predict_image(model, image_index=1000, dataset=test_dataset)
 ```
 
 ## OUTPUT
@@ -232,7 +232,8 @@ predict_image(model, image_index=47, dataset=test_dataset)
 
 
 ### New Sample Data Prediction
-<img width="448" height="470" alt="image" src="https://github.com/user-attachments/assets/75e2007c-93bb-4e6d-8d47-c8c1ba57d70b" />
+<img width="523" height="615" alt="image" src="https://github.com/user-attachments/assets/f3d019d4-124f-441a-8183-94582a84d35f" />
+
 
 
 
