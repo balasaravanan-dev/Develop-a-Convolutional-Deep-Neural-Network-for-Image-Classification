@@ -207,8 +207,8 @@ def predict_image(model, image_index, dataset):
     class_names = dataset.classes
 
     # Display the image
-    print('Name: Surya Prakash B')
-    print('Register Number: 212224230281')
+    print('Name: BALA SARAVANAN K')
+    print('Register Number: 212224230031')
     plt.imshow(image.squeeze(), cmap="gray")
     plt.title(f'Actual: {class_names[label]}\nPredicted: {class_names[predicted.item()]}')
     plt.axis("off")
